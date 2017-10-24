@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.content{
+    max-width: 540px;
+    margin: 0 auto;
+}
+.disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.carousel-controls{
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+}
+.carousel-controls .prev{
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}
+.carousel-controls .next{
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+}
+.carousel-container{
+    width: 500px;
+    float: left;
+    overflow: hidden;
+}
+.carousel{
+    width: 2000px;
+    float: left;
+    margin-left: 0px;
+}
+.carousel .slide{
+    width:500px;
+    float: left;
+}
+.active0{
+     margin-left:0
+ }
+.active1{
+    margin-left: -500px;
+}
+.active2{
+    margin-left: -1000px;
+}
+.active3{
+    margin-left: -1500px;
+}
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+.wrapper{
+    padding: 2%;
+    width: 96%;
+    float: left;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+}
+.results{
+    margin-top: 15px;
+}
